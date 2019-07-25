@@ -1,0 +1,28 @@
+the number of rail image at level 8 = 0
+the number of rail image at level 9 = 0
+the number of rail image at level 10 = 0
+the number of rail image at level 11 = 0
+the number of rail image at level 12 = 33
+the number of rail image at level 13 = 126
+the number of rail image at level 14 = 144
+the number of rail image at level 15 = 164
+the number of rail image at level 16 = 296
+the number of rail image at level 17 = 532
+the number of rail image at level 18 = 2429
+the number of rail image at level 19 = 1132
+ 
+the number of other image at level 8 = 0
+the number of other image at level 9 = 0
+the number of other image at level 10 = 0
+the number of other image at level 11 = 11
+the number of other image at level 12 = 24
+the number of other image at level 13 = 410
+the number of other image at level 14 = 313
+the number of other image at level 15 = 197
+the number of other image at level 16 = 233
+the number of other image at level 17 = 386
+the number of other image at level 18 = 1931
+the number of other image at level 19 = 71
+ 
+The number of Railroad Iamges = 4856
+The number of Other Iamges = 3576
