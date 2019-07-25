@@ -27,3 +27,56 @@
 1. Just navigate to the tile_pipeline preject
 2. Run git pull
 3. Run docker (previous section) and off you go
+
+
+# How to use github
+
+## Clone
+
+To clone repository you have to run command:
+
+`git clone <repository url>`
+
+Comment:
+
+At this point you don't have privilage to push back to the repository. If you have a new version of git 
+when you run command `git push` it will ask you for username and password. If have old version it will fail.
+However the fix is really easy. To fix it do:
+
+1. Enter to the cloned folder (git has created `tile_pipeline` folder for you)
+2. You should see all the files plus hidden folder .git (On linux hidden folders/files start with dot)
+3. Open follwoing file for edit `.git/config`
+
+```
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[remote "origin"]
+        url = https://github.com/agilebeat-inc/tile_pipeline.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
+```
+
+Now in the remote section `[remote "origin"]` modify url part as follwing
+
+```
+[core]
+        repositoryformatversion = 0
+        filemode = true
+        bare = false
+        logallrefupdates = true
+[remote "origin"]
+        url = https://<GIT USER NAME>@github.com/agilebeat-inc/tile_pipeline.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
+
+```
+
+4. Save the changes (If you are using vim as editior just pres ESC+wq)
+5. Run git push
