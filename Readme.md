@@ -10,4 +10,20 @@
 6. Run push:
    `git push`
 
+### To run the process just run docker
 
+1. Start the agilebeat docker container
+
+`docker run -v /Users/mdwulit/.aws:/root/.aws -v <PATH TO THE TILE_PIPELINE PROJECT>tile_pipeline:/notebooks -p 8888:8888 docker_image_id`
+
+
+### Comments
+
+1. Do not check in the tiles by themselves
+2. Check the updated archive.txt file so that others don't process the same files.
+
+#### If you have used this project before and model has not been updated yet
+
+1. Just navigate to the tile_pipeline preject
+2. Run git pull
+3. Run docker (previous section) and off you go
