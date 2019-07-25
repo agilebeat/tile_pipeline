@@ -78,5 +78,5 @@ Now in the remote section `[remote "origin"]` modify url part as follwing
 
 ```
 
-4. Save the changes (If you are using vim as editior just pres ESC+wq)
+4. Save the changes (If you are using vim as editior just pres ESC+:+wq)
 5. Run git push
